@@ -5,13 +5,13 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=malikfouzankhan" alt="malikfouzankhan" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/_malik_fouzan_" target="blank"><img src="https://img.shields.io/twitter/follow/_malik_fouzan_?logo=twitter&style=for-the-badge" alt="_malik_fouzan_" /></a> </p>
+<!-- <p align="left"> <a href="https://twitter.com/_malik_fouzan_" target="blank"><img src="https://img.shields.io/twitter/follow/_malik_fouzan_?logo=twitter&style=for-the-badge" alt="_malik_fouzan_" /></a> </p> -->
 
-### Blogs posts
+
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Places you can find me at:</h3>
 <p align="left">
 <a href="https://twitter.com/_malik_fouzan_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="_malik_fouzan_" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/malik-fouzan-khan-a76183268/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="malik-fouzan-khan-a76183268/" height="30" width="40" /></a>
