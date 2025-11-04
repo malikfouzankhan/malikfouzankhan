@@ -1,5 +1,8 @@
 <h1 align="center">👋, I'm Malik Fouzan Khan</h1>
 <h3 align="center">Scholar, Class of B-25, Code For India Foundation</h3>
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dTc0M2htaGd1aWZtYmI3YXZpOWV4ODc5MnQ3Z3JqMTZ0M3E3ZWxqZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HscDLzkO8EOTmgkhQP/giphy.gif" alt="Fun gif" width="420"  />
+</p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=malikfouzankhan&label=Profile%20views&color=0e75b6&style=flat" alt="malikfouzankhan" /> </p>
 
