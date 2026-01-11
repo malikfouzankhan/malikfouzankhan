@@ -8,6 +8,18 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=malikfouzankhan&theme=oldie" alt="malikfouzankhan" /></a> </p>
 
+<table width="100%">
+  <tr>
+    <td width="60%" align="center" style="padding: 20px;">
+      <img 
+        src="https://nirzak-streak-stats.vercel.app/?user=abdullahjawed01&theme=dark&hide_border=true"
+        alt="GitHub Streak"
+        style="width: 100%; max-width: 500px; border-radius: 14px; margin-bottom: 25px;"
+      />
+    </td>
+  </tr>
+</table>
+
 <!-- <p align="left"> <a href="https://twitter.com/_malik_fouzan_" target="blank"><img src="https://img.shields.io/twitter/follow/_malik_fouzan_?logo=twitter&style=for-the-badge" alt="_malik_fouzan_" /></a> </p> -->
 
 
