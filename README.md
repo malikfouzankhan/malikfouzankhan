@@ -12,7 +12,7 @@
   <tr>
     <td width="60%" align="center" style="padding: 20px;">
       <img 
-        src="https://nirzak-streak-stats.vercel.app/?user=abdullahjawed01&theme=dark&hide_border=true"
+        src="https://nirzak-streak-stats.vercel.app/?user=malikfouzankhan&theme=dark&hide_border=true"
         alt="GitHub Streak"
         style="width: 100%; max-width: 500px; border-radius: 14px; margin-bottom: 25px;"
       />
