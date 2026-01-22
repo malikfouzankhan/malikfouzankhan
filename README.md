@@ -260,7 +260,7 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://mfk-portfolio.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-00FFBF?style=for-the-badge&logo=About.me&logoColor=black" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-1F8EF7?style=for-the-badge&logo=About.me&logoColor=black" alt="Portfolio"/>
   </a>
 </div>
 
