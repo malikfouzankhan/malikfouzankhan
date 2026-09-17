@@ -141,9 +141,9 @@ Leave a message on this profile. Click the button, hit submit, and a GitHub Acti
 <!-- GUESTBOOK:START -->
 ```text
 GET /guestbook?limit=5
-< HTTP/2 204 No Content
+< HTTP/2 200 OK
 
-  no requests yet. be the first one.
+  2026-09-17  @malikfouzankhan   "Testing post"
 ```
 <!-- GUESTBOOK:END -->
 
