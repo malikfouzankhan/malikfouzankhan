@@ -1,0 +1,38 @@
+name: guestbook-sync
+
+on:
+  push:
+    branches: [main]
+    paths: [guestbook/entries.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: guestbook
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Re-render guestbook block
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const gb = require('./.github/scripts/guestbook.js');
+            gb.writeReadme(gb.loadEntries());
+
+      - name: Commit README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "guestbook: sync README"
+          git pull --rebase
+          git push
