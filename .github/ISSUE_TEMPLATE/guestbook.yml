@@ -1,0 +1,23 @@
+name: "POST /guestbook"
+description: "Leave a message on MFK's GitHub profile"
+title: "POST /guestbook"
+labels: ["guestbook"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```http
+        POST /guestbook HTTP/2
+        Host: github.com/malikfouzankhan
+        Content-Type: application/json
+        ```
+        Say hi, share feedback, or drop a tip. Your GitHub username and message will be shown on the profile README.
+        Links and formatting are stripped. One message per user every 24 hours.
+  - type: input
+    id: message
+    attributes:
+      label: Message
+      description: "Max 80 characters."
+      placeholder: "Clean terminal theme, nice work!"
+    validations:
+      required: true

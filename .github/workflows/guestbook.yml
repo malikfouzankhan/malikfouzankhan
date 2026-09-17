@@ -1,0 +1,66 @@
+name: guestbook
+
+# ┌──────────────────────────────────────────────────────────────────┐
+# │ SWITCHING TO APPROVAL MODE (2 edits in this file)                │
+# │  1. under "on.issues": comment the INSTANT line,                 │
+# │     uncomment the APPROVAL line                                  │
+# │  2. under "env": comment the INSTANT line,                       │
+# │     uncomment the APPROVAL line                                  │
+# │ Then approve an entry by adding the "approved" label to its      │
+# │ issue. Switch back by reversing both edits.                      │
+# └──────────────────────────────────────────────────────────────────┘
+
+on:
+  issues:
+    types: [opened]              # INSTANT MODE
+    # types: [opened, labeled]   # APPROVAL MODE
+
+env:
+  GUESTBOOK_MODE: instant        # INSTANT MODE
+  # GUESTBOOK_MODE: approved     # APPROVAL MODE
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: guestbook
+  cancel-in-progress: false
+
+jobs:
+  handle:
+    if: startsWith(github.event.issue.title, 'POST /guestbook')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Process request
+        id: process
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { processRequest } = require('./.github/scripts/guestbook.js');
+            await processRequest({ github, context, core });
+
+      - name: Commit guestbook update
+        if: steps.process.outputs.write == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md guestbook/entries.json
+          git diff --cached --quiet && exit 0
+          git commit -m "guestbook: 201 Created"
+          git pull --rebase
+          git push
+
+      - name: Respond on issue
+        if: steps.process.outputs.status != ''
+        uses: actions/github-script@v7
+        env:
+          GB_STATUS: ${{ steps.process.outputs.status }}
+          GB_NEXT: ${{ steps.process.outputs.next }}
+        with:
+          script: |
+            const { respond } = require('./.github/scripts/guestbook.js');
+            await respond({ github, context, core });
