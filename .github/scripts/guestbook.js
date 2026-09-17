@@ -264,4 +264,4 @@ async function respond({ github, context, core }) {
   }
 }
 
-module.exports = { processRequest, respond, sanitize, extractMessage, isBlocked, renderBlock };
+module.exports = { processRequest, respond, sanitize, extractMessage, isBlocked, renderBlock, loadEntries, writeReadme };
