@@ -6,9 +6,9 @@
   <img width="100%" src="./assets/hero-dark.svg" alt="Terminal running curl api.fouzan.dev/v1/whoami. Response: Malik Fouzan Khan (MFK), Hyderabad. Software Engineer at Zenoids Technologies and part-time Trainer at Code For India Foundation. Builds backend systems that survive production. Open to freelance.">
 </picture>
 
-<a href="https://www.fouzan.dev"><img src="https://img.shields.io/badge/X--Portfolio-fouzan.dev-39d353?style=flat-square&labelColor=0d1117" alt="Portfolio: fouzan.dev"></a>
-<a href="https://linkedin.com/in/malik-fouzan-khan-a76183268/"><img src="https://img.shields.io/badge/X--LinkedIn-malik--fouzan--khan-39d353?style=flat-square&labelColor=0d1117" alt="LinkedIn"></a>
-<a href="https://x.com/_malik_fouzan_"><img src="https://img.shields.io/badge/X--Twitter-%40__malik__fouzan__-39d353?style=flat-square&labelColor=0d1117" alt="X / Twitter"></a>
+<a href="https://www.fouzan.dev" target="_blank"><img src="https://img.shields.io/badge/X--Portfolio-fouzan.dev-39d353?style=flat-square&labelColor=0d1117" alt="Portfolio: fouzan.dev"></a>
+<a href="https://linkedin.com/in/malik-fouzan-khan-a76183268/" target="_blank"><img src="https://img.shields.io/badge/X--LinkedIn-malik--fouzan--khan-39d353?style=flat-square&labelColor=0d1117" alt="LinkedIn"></a>
+<a href="https://x.com/_malik_fouzan_" target="_blank"><img src="https://img.shields.io/badge/X--Twitter-%40__malik__fouzan__-39d353?style=flat-square&labelColor=0d1117" alt="X / Twitter"></a>
 <img src="https://img.shields.io/badge/X--Status-open__to__freelance-e3b341?style=flat-square&labelColor=0d1117" alt="Status: open to freelance">
 
 </div>
