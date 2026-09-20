@@ -6,10 +6,10 @@
   <img width="100%" src="./assets/hero-dark.svg" alt="Terminal running curl api.fouzan.dev/v1/whoami. Response: Malik Fouzan Khan (MFK), Hyderabad. Software Engineer at Zenoids Technologies and part-time Trainer at Code For India Foundation. Builds backend systems that survive production. Open to freelance.">
 </picture>
 
-<a href="https://www.fouzan.dev" target="_blank"><img src="https://img.shields.io/badge/X--Portfolio-fouzan.dev-39d353?style=flat-square&labelColor=0d1117" alt="Portfolio: fouzan.dev"></a>
-<a href="https://linkedin.com/in/malik-fouzan-khan-a76183268/" target="_blank"><img src="https://img.shields.io/badge/X--LinkedIn-malik--fouzan--khan-39d353?style=flat-square&labelColor=0d1117" alt="LinkedIn"></a>
-<a href="https://x.com/_malik_fouzan_" target="_blank"><img src="https://img.shields.io/badge/X--Twitter-%40__malik__fouzan__-39d353?style=flat-square&labelColor=0d1117" alt="X / Twitter"></a>
-<img src="https://img.shields.io/badge/X--Status-open__to__freelance-e3b341?style=flat-square&labelColor=0d1117" alt="Status: open to freelance">
+<a href="https://www.fouzan.dev" target="_blank"><img src="https://img.shields.io/badge/Portfolio-fouzan.dev-39d353?style=plastic&labelColor=0d1117" alt="Portfolio: fouzan.dev"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://linkedin.com/in/malik-fouzan-khan-a76183268/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-malik--fouzan--khan-39d353?style=plastic&labelColor=0d1117" alt="LinkedIn"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://x.com/_malik_fouzan_" target="_blank"><img src="https://img.shields.io/badge/Twitter-%40__malik__fouzan__-39d353?style=plastic&labelColor=0d1117" alt="X / Twitter"></a>&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Status-open_to_freelance-e3b341?style=plastic&labelColor=0d1117" alt="Status: open to freelance">
 
 </div>
 
@@ -136,7 +136,7 @@ Rate limit:  unlimited curiosity
 
 Leave a message on this profile. Click the button, hit submit, and a GitHub Action handles the rest.
 
-<a href="https://github.com/malikfouzankhan/malikfouzankhan/issues/new?template=guestbook.yml"><img src="https://img.shields.io/badge/POST-%2Fguestbook%20%C2%B7%20say%20hi-e3b341?style=for-the-badge&labelColor=0d1117" alt="POST /guestbook: say hi"></a>
+<a href="https://github.com/malikfouzankhan/malikfouzankhan/issues/new?template=guestbook.yml"><img src="https://img.shields.io/badge/POST-%2Fguestbook%20%C2%B7%20say%20hi-e3b341?style=flat&labelColor=0d1117" alt="POST /guestbook: say hi"></a>
 
 <!-- GUESTBOOK:START -->
 ```text
